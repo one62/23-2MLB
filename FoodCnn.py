@@ -202,6 +202,7 @@ for epoch in range(num_epochs):
         try:
             train = images.view(100, 3, 48, 48)
         except:
+            print("train:", images.shape)
             continue
 
         outputs = model(train)
@@ -223,7 +224,7 @@ for epoch in range(num_epochs):
                 try:
                     test = images.view(100, 3, 48, 48)
                 except:
-                    print(images.shape)
+                    print("test:", images.shape)
                     continue
 
                 outputs = model(test)
