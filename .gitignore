@@ -3,6 +3,10 @@
 /data-6.pkl
 /training_input.pkl
 /training_output.pkl
+/datasetR.py
+/data-1.pkl
+/data_new-1.pkl
+/data_new-1.1.pkl
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
